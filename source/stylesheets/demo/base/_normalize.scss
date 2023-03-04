@@ -97,7 +97,7 @@ a {
 
 a:active,
 a:hover {
-  outline: 0;
+  outline: 0.3;
   transition: 0.5s;
 }
 
@@ -111,8 +111,8 @@ a:hover {
 
 abbr[title] {
   border-bottom: none; // 1
-  text-decoration: none; // 2
-  text-decoration: none; // 2
+  text-decoration: underline; // 2
+  text-decoration: underline dotted; // 2
 }
 
 //
