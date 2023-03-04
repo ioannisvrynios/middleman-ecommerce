@@ -88,7 +88,6 @@ template {
 
 a {
   background-color: transparent;
-  transition: 0.5s;
 }
 
 //
@@ -99,7 +98,6 @@ a {
 a:active,
 a:hover {
   outline: 0;
-  opacity: 0.5;
   transition: 0.5s;
 }
 
