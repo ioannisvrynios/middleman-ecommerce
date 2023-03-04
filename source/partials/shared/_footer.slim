@@ -1,84 +1,26 @@
 footer
+  = partial 'partials/shared/header-primary'
 
-  header
+    nav.navigation
+      ul
+        - data.settings.navigation.nav_items.each do | nav_item |
+          li
+            = nav_link nav_item.label, nav_item.path
+  
+  .footer-content
+    .container-fluid
+      .row
+        .newsletter
+          form
+            label for="email" Sign up for our newsletter
+            input type="email" name="email" placeholder="Your email address"
+            button type="submit" Submit
 
-main
-
-footer.footer
-  .footer__addr
-    h1.footer__logo
-      | Something
-    h2
-      | Contact
-  address
-    |  5534 Somewhere In. The World 22193-10212
-  br
-  a.footer__btn[href="mailto:example@gmail.com"]
-    | Email Us
-  ul.footer__nav
-    li.nav__item
-      h2.nav__title
-        | Media
-  ul.nav__ul
-    li
-
-  a[href="#"]
-    | Online
-  li
-
-  a[href="#"]
-    | Print
-  li
-
-  a[href="#"]
-    | Alternative Ads
-  li.nav__item.nav__item--extra
-    h2.nav__title
-      | Technology
-  ul.nav__ul.nav__ul--extra
-    li
-
-  a[href="#"]
-    | Hardware Design
-  li
-
-  a[href="#"]
-    | Software Design
-  li
-
-  a[href="#"]
-    | Digital Signage
-  li
-
-  a[href="#"]
-    | Automation
-  li
-
-  a[href="#"]
-    | Artificial Intelligence
-  li
-
-  a[href="#"]
-    | IoT
-  li.nav__item
-    h2.nav__title
-      | Legal
-  ul.nav__ul
-    li
-
-  a[href="#"]
-    | Privacy Policy
-  li
-
-  a[href="#"]
-    | Terms of Use
-  li
-
-  a[href="#"]
-    | Sitemap
-  .legal
-    p
-
-
-  p[style="color:#ccc!important; width: 100%; text-align: center;"]
-    | © 2020 Acropolitana created by Giannis Vrynios
+        .social
+          .icons
+            = link_to '#'
+              = image_tag "social/facebook.svg"
+            = link_to '#'
+              = image_tag "social/twitter.svg"
+            = link_to 'https://github.com/tomrutgers/middleman-starter-netlify-cms'
+              = image_tag "social/github.svg"
