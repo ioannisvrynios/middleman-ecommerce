@@ -1,14 +1,16 @@
 footer
   = partial 'partials/shared/header-primary'
 
-    nav.navigation
-      ul
-        - data.settings.navigation.nav_items.each do | nav_item |
           
           li
           p
           | Designed by Giannis Vrynios
           br
+
+
+    nav.navigation
+      ul
+        - data.settings.navigation.nav_items.each do | nav_item |
 
           li
             = nav_link nav_item.label, nav_item.path
