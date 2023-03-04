@@ -4,9 +4,11 @@ footer
     nav.navigation
       ul
         - data.settings.navigation.nav_items.each do | nav_item |
+          
+          li
+          p
+          | Designed by Giannis Vrynios
+          br
+
           li
             = nav_link nav_item.label, nav_item.path
-      
-      p
-        | Designed by Giannis Vrynios
-      br
