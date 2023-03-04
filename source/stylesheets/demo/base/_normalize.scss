@@ -98,7 +98,8 @@ a {
 
 a:active,
 a:hover {
-  outline: 0.5;
+  outline: 0;
+  opacity: 0.5;
   transition: 0.5s;
 }
 
