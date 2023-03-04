@@ -114,17 +114,3 @@ body {
     }
   }
 }
-@media screen and (min-width: 40.375em) {
-  .footer__nav {
-    >* {
-      flex: 1;
-    }
-    flex: 2 0px;
-  }
-  .nav__item--extra {
-    flex-grow: 2;
-  }
-  .footer__addr {
-    flex: 1 0px;
-  }
-}
