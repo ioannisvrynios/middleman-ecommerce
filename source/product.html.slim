@@ -3,7 +3,10 @@
   .content
     .meta
       h1 = product.title
-
+      
+      .id
+        p = product.id 
+        
       .weight
         - weight = data.settings.units.weight || 'kg'
         span = product.weight.to_s + weight
