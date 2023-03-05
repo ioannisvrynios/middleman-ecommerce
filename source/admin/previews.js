@@ -1,6 +1,5 @@
 const BlogPreview = ({ entry, widgetFor }) => {
   const data = entry.get('data').toJS()
-  const id = dayjs(data.id).format('DD-MM-YY')
   return (
     <div className="news-detail">
       <div className="container">
@@ -34,6 +33,9 @@ const ProductPreview = ({ entry, widgetFor }) => {
           </div>
           <div className="price">
             <span>{`€${data.price}`}</span>
+          </div>
+          <div className="id">
+            <span>{`€${data.id}`}</span>
           </div>
         </div>
         <div className="body">{widgetFor('body')}</div>
@@ -70,7 +72,7 @@ const NavigationPreview = ({ entry }) => {
     <header className="header-primary">
       <div className="logo">
         <a href="/">
-          <img src="/images/logo.svg" alt="Kaldi"/>
+          <img src="/images/logo.svg" alt="Acropolitana"/>
         </a>
       </div>
       <a className="nav-button">
