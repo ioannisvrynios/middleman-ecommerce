@@ -22,7 +22,6 @@ collections:
       - {label: Weight, name: weight, widget: number}
       - {label: Price, name: price, widget: number}
       - {label: Id, name: id, widget: number}
-      - {label: Collection, name: collection}
       - {label: Body, name: body, widget: markdown}
 
 #markdown middleman blog example
