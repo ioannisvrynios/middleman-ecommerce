@@ -17,11 +17,11 @@ collections:
     slug: '{{title}}'
     fields:
       - {label: Title, name: title, widget: string, required: true}
-      - {label: Id, name: id, widget: string, required: true}
       - {label: Image, name: image, widget: image, required: true}
 
       - {label: Weight, name: weight, widget: number}
       - {label: Price, name: price, widget: number}
+      - {label: Id, name: id, widget: number}
       - {label: Body, name: body, widget: markdown}
 
 #markdown middleman blog example
