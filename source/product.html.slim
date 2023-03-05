@@ -5,8 +5,8 @@
       h1 = product.title
       
       .id
-        p = product.id 
-        
+        span = product.id.to_s 
+
       .weight
         - weight = data.settings.units.weight || 'kg'
         span = product.weight.to_s + weight
