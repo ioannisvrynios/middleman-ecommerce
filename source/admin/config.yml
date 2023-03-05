@@ -18,6 +18,7 @@ collections:
     fields:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Image, name: image, widget: image, required: true}
+      - {label: Collection, name: collection, required: true}
 
       - {label: Weight, name: weight, widget: number}
       - {label: Price, name: price, widget: number}
