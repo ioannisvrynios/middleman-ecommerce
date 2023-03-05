@@ -6,6 +6,8 @@
     .product-content
       .title
         h3 = product.title
+      .id
+        p = product.id 
       .price
         p 
           - currency = data.settings.units.currency || '€' 
