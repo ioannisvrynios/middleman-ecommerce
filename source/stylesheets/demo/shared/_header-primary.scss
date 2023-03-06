@@ -67,6 +67,14 @@
       }
     }
   }
+  
+  @media screen and (max-width: $screen-s-max) {
+  .logo {
+  left: -15%;
+    top: 3%;
+  }
+  }
+
   @media screen and (max-width: $screen-xs-max) {
     .navigation {
       display: none;
