@@ -82,5 +82,5 @@ collections:
           - label: Weight
             name: weight
             widget: select
-            options: ['kg', ' st', ' lb']
-            default: 'kg'
+            options: ['kg', ' ml', ' lb']
+            default: 'ml'
