@@ -7,14 +7,16 @@
       .title
        h3
        b = product.title
+
+       br
+
       .id
-        span = product.id.to_s
+        h10 = product.id.to_s
 
         br 
 
       .collection
-       p 
-          span = product.collection
+       h10 = product.collection
       .price
         p 
           - currency = data.settings.units.currency || '€' 
