@@ -90,5 +90,17 @@
     .nav-button {
       display: block;
     }
+
+
+  .logo {
+    width: 450px;
+    height: 79px;
+    position: absolute;
+    left: -20%;
+    top: 3%;
+    a {
+      display: block;
+    }
+  }
   }
 }
