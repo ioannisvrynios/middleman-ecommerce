@@ -68,46 +68,8 @@
     }
   }
   
-  
- @media screen and (max-width: 764px;) {
-    .navigation {
-      display: none;
-      width: 100%;
-      height: auto;
-      top: 80px;
-      right: 0;
-      background: #fff;
-      border-top: 1px solid $background-primary-color;
-      li {
-        display: block;
-        margin: 30px 0;
-      }
 
-      &.open {
-        height: calc(100vh - 80px);
-        display: block
-      }
-    }
-
-    .nav-button {
-      display: block;
-    }
-
-
-  .logo {
-    width: 450px;
-    height: 79px;
-    position: absolute;
-    left: -25%;
-    top: 3%;
-    a {
-      display: block;
-    }
-  }
-  }
-}
-
-  @media screen and (max-width: $screen-xs-max) {
+  @media screen and (max-width: 700px;) {
     .navigation {
       display: none;
       width: 100%;
