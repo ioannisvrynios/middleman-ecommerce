@@ -68,13 +68,6 @@
     }
   }
   
-  @media screen and (max-width: $screen-s-max) {
-  .logo {
-  position: absolute;
-  left: -15%;
-    top: 3%;
-  }
-  }
 
   @media screen and (max-width: $screen-xs-max) {
     .navigation {
@@ -107,7 +100,6 @@
     position: absolute;
     left: -30%;
     top: 3%;
-    }
     a {
       display: block;
     }
