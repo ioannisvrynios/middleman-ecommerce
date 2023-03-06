@@ -56,6 +56,11 @@
      font-size: 12px;
   }
 
+  .collection p {
+     font-size: 12px;
+     border: 1px solid #ccc;
+  }
+
   @media screen and (max-width: $screen-xs-max) {
     margin-bottom: 15px;
   }
