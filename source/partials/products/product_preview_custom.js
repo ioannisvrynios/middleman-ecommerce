@@ -1,3 +1,3 @@
 if (product.title.length > 58) {
-  product.title = product.title.string(0, 57) + "...";
+  b.product.title = product.title.substr(0, 57) + "...";
 }
