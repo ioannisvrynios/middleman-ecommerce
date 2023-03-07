@@ -1,6 +1,12 @@
 //link to product by converting the title to a slug
 .product
   = link_to '/product/' + product.title.parameterize + '/'
+
+
+  script src="product_preview_custom.js"
+
+
+
     .product-image
       = image_tag product.image
     .product-content
@@ -32,7 +38,3 @@
         p 
           - weight = data.settings.units.weight || 'kg'
           = product.weight.to_s + weight
-
-
-          script
-  |  if (string.length > 58) { string = string.substring(0, 57) "..."; } 
