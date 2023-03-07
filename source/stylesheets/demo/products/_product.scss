@@ -1,6 +1,6 @@
 %product {
   color: $text-color;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 
   &:hover, &:focus {
     a {
@@ -31,7 +31,6 @@
 
   .title {
     font-weight: 800;
-    text-overflow: ellipsis;
   }
   
   .title, .price {
