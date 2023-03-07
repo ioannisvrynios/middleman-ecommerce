@@ -1,11 +1,12 @@
 //link to product by converting the title to a slug
+
+
+
+script src="product_preview_custom.js"
+
+
 .product
   = link_to '/product/' + product.title.parameterize + '/'
-
-
-  script src="product_preview_custom.js"
-
-
 
     .product-image
       = image_tag product.image
