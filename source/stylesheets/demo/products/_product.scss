@@ -28,11 +28,17 @@
   .product-content {
     padding: 5px 10px;
   }
-
+  
   .title {
     font-weight: 800;
     text-overflow: ellipsis;
-    height: 5px;
+  }
+
+  span .title {
+  border: 1px solid black;
+  position: relative;
+  height: 2px;
+  width: 100%;
   }
   
   .title, .price {
