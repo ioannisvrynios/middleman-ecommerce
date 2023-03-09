@@ -8,6 +8,10 @@ header.header-primary
     = image_tag 'nav-close.svg', class: 'close'
 
   nav.navigation
+    .logo
+    = link_to '/'
+      = image_tag 'logo.svg', alt: 'Acropolitana'
+      
     ul
       - data.settings.navigation.nav_items.each do | nav_item |
         li

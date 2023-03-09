@@ -87,9 +87,7 @@ footer {
   footer {
     .header-primary {
       .logo  a {
-        position: absolute;
-        bottom: 30px;
-        left: 400px;
+        display: none;
       }
       .nav-button {
         display: none;
@@ -101,6 +99,11 @@ footer {
         border-top: 2px solid rgba(255, 255, 255, 0.1);
         li {
           margin: 15px 0;
+        }
+        .logo {
+        display: block;
+        position: relative;
+        top: auto;
         }
       }
       ul {
