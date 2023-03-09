@@ -7,6 +7,10 @@ footer {
     height: auto;
     border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 
+    .navigation .logo {
+        display: none!important;
+        }
+
     .navigation {
       background-color: transparent;
       a {
@@ -92,6 +96,11 @@ footer {
       .nav-button {
         display: none;
       }
+
+        .navigation .logo {
+        display: none!important;
+        }
+
       .navigation {
         display: block;
         position: relative;
@@ -99,11 +108,6 @@ footer {
         border-top: 2px solid rgba(255, 255, 255, 0.1);
         li {
           margin: 15px 0;
-        }
-        .logo {
-        display: block;
-        position: relative;
-        top: auto;
         }
       }
       ul {
