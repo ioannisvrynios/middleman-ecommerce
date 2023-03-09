@@ -82,7 +82,8 @@
       }
 
       .logo {
-        display: none;
+        display: none!important;
+        opacity: 0;
       }
 
       &.open {
