@@ -28,6 +28,11 @@
       display: inline-block;
       margin: 0 15px;
     }
+
+    .logo {
+    display: none!important;
+    opacity: 0!important;
+    }
     a {
       font-size: 18px;
       font-weight: 700;
