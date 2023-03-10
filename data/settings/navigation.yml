@@ -3,7 +3,7 @@ nav_items:
     path: /
   - label: Products
     path: /products/
-  - label: Terms of Service
-    path: /tos/
   - label: Partners
     path: /partners/
+  - label: Terms of Service
+    path: /tos/
