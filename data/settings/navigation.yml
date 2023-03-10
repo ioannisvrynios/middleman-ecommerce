@@ -5,3 +5,5 @@ nav_items:
     path: /products/
   - label: Terms of Service
     path: /tos/
+  - label: Partners
+    path: /partners/
