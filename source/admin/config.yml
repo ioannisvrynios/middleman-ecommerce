@@ -17,12 +17,13 @@ collections:
     slug: '{{title}}'
     fields:
       - {label: Title, name: title, widget: string, required: true}
-      - {label: Publish Date, name: date, widget: datetime}
       - {label: Image, name: image, widget: image, required: true}
 
       - {label: Weight, name: weight, widget: number}
-      - {label: Price, name: price, widget: number}
+      - {label: Price, name: price, widget: number, value_type: "float"}
       - {label: Body, name: body, widget: markdown}
+      - {label: Id, name: id, widget: number}
+      - {label: Collection, name: collection, widget: string}
 
 #markdown middleman blog example
   - name: blog
@@ -82,5 +83,5 @@ collections:
           - label: Weight
             name: weight
             widget: select
-            options: ['kg', ' st', ' lb']
-            default: 'kg'
+            options: ['kg', ' ml', ' lb']
+            default: 'ml'
